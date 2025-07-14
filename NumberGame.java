@@ -42,7 +42,7 @@ public class NumberGame {
 
             System.out.println("You want to play again (yes/no):");
             String choice = sc.next();
-            if(choice.equalsIgnoreCase("yes")){
+            if(choice.equalsIgnoreCase("y")){
                 continue;
             } else {
                 System.out.println("Thank you for playing.....");

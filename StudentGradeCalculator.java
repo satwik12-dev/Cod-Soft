@@ -21,31 +21,18 @@ public class StudentGradeCalculator {
         ssmarks = sc.nextInt();
         sc.close();
     }
-
-    void printmarks(){
-        System.out.println("Printing marks...");
-        System.out.println("Maths: "+mmarks);
-        System.out.println("Hindi: "+hmarks);
-        System.out.println("English: "+emarks);
-        System.out.println("Science: "+smarks);
-        System.out.println("Social Studies: "+ssmarks);
-    }
-
     void totalmarks(){
-        System.out.println("Calculating total marks...");
         int total = mmarks + hmarks + emarks + smarks + ssmarks;
         System.out.println("Total Marks: " + total);
     }
 
     void avgpercentage(){
-        System.out.println("Calculating average percentage...");
         int total = mmarks + hmarks + emarks + smarks + ssmarks;
         double percentage = (total / 5.0);
         System.out.println("Average Percentage: " + percentage + "%");
     }
 
     void grade(){
-        System.out.println("Calculating grade...");
         int total = mmarks + hmarks + emarks + smarks + ssmarks;
         double percentage = (total / 5.0);
         
@@ -62,11 +49,11 @@ public class StudentGradeCalculator {
         }
     }
 
+
     
     public static void main(String[] args) {
         StudentGradeCalculator sms = new StudentGradeCalculator();
         sms.takingmarks();
-        sms.printmarks();
         sms.totalmarks();
         sms.avgpercentage();
         sms.grade();
