@@ -1,4 +1,4 @@
-# 🎓 Internship Offer - CodSoft
+# 🎓 Internship At CodSoft
 
 ## 🧾 Offer Summary
 
