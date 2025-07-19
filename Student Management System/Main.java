@@ -20,7 +20,7 @@ public class Main {
                 sc.next();
             }
             choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             switch (choice) {
                 case 1 -> {
@@ -75,5 +75,7 @@ public class Main {
                 default -> System.out.println("Invalid choice. Try again.");
             }
         } while (choice != 6);
+        sc.close();
+        System.out.println("Thank you for using the Student Management System!");
     }
 }
